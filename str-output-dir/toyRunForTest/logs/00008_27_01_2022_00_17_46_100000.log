@@ -1,0 +1,35 @@
+2022-01-27 00:17:47,882 [loggers.py          ] [29 ] [INFO ]  	Start repetition 8 with MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:17:47,884 [loggers.py          ] [23 ] [INFO ]  		Prepare the target distribution
+2022-01-27 00:17:50,233 [loggers.py          ] [23 ] [INFO ]  		Sample from the source distribution 100000 examples
+2022-01-27 00:17:50,625 [loggers.py          ] [23 ] [INFO ]  		Start MW algorithm
+2022-01-27 00:17:50,648 [loggers.py          ] [29 ] [INFO ]  			Iteration number 1 of MW algorithm with rep: 8, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:17:50,782 [loggers.py          ] [23 ] [INFO ]  				Fit model on subsample
+2022-01-27 00:17:54,473 [loggers.py          ] [23 ] [INFO ]  				Calculate loss on S
+2022-01-27 00:17:54,669 [loggers.py          ] [23 ] [INFO ]  				SQ - query
+2022-01-27 00:17:56,210 [loggers.py          ] [23 ] [INFO ]  				Loss S: 0.01704, Loss subsampling S: 0.015306222057359287, Loss T: 0.04776, Dist chisq: 16.832965628348294, Dist kl: 3.932506771382798, Dist tv: 0.9082467169406857
+2022-01-27 00:17:56,248 [loggers.py          ] [29 ] [INFO ]  			Iteration number 2 of MW algorithm with rep: 8, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:17:56,417 [loggers.py          ] [23 ] [INFO ]  				Fit model on subsample
+2022-01-27 00:17:59,681 [loggers.py          ] [23 ] [INFO ]  				Calculate loss on S
+2022-01-27 00:17:59,838 [loggers.py          ] [23 ] [INFO ]  				SQ - query
+2022-01-27 00:18:01,229 [loggers.py          ] [23 ] [INFO ]  				Loss S: 0.016363428452149335, Loss subsampling S: 0.014720524784756252, Loss T: 0.04448, Dist chisq: 16.825176101370865, Dist kl: 3.931616916271239, Dist tv: 0.9081600675006269
+2022-01-27 00:18:01,231 [loggers.py          ] [29 ] [INFO ]  			Iteration number 3 of MW algorithm with rep: 8, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:18:01,344 [loggers.py          ] [23 ] [INFO ]  				Fit model on subsample
+2022-01-27 00:18:04,056 [loggers.py          ] [23 ] [INFO ]  				Calculate loss on S
+2022-01-27 00:18:04,214 [loggers.py          ] [23 ] [INFO ]  				SQ - query
+2022-01-27 00:18:05,586 [loggers.py          ] [23 ] [INFO ]  				Loss S: 0.017633845480031655, Loss subsampling S: 0.015052419905897972, Loss T: 0.05338, Dist chisq: 16.818286948351545, Dist kl: 3.930804896115989, Dist tv: 0.9080783074585093
+2022-01-27 00:18:05,589 [loggers.py          ] [29 ] [INFO ]  			Iteration number 4 of MW algorithm with rep: 8, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:18:05,683 [loggers.py          ] [23 ] [INFO ]  				Fit model on subsample
+2022-01-27 00:18:07,874 [loggers.py          ] [23 ] [INFO ]  				Calculate loss on S
+2022-01-27 00:18:08,038 [loggers.py          ] [23 ] [INFO ]  				SQ - query
+2022-01-27 00:18:09,412 [loggers.py          ] [23 ] [INFO ]  				Loss S: 0.020181722965719812, Loss subsampling S: 0.017082837117588488, Loss T: 0.08398, Dist chisq: 16.809510328112232, Dist kl: 3.929855095405697, Dist tv: 0.9079901610988169
+2022-01-27 00:18:09,415 [loggers.py          ] [29 ] [INFO ]  			Iteration number 5 of MW algorithm with rep: 8, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:18:09,509 [loggers.py          ] [23 ] [INFO ]  				Fit model on subsample
+2022-01-27 00:18:13,314 [loggers.py          ] [23 ] [INFO ]  				Calculate loss on S
+2022-01-27 00:18:13,500 [loggers.py          ] [23 ] [INFO ]  				SQ - query
+2022-01-27 00:18:14,879 [loggers.py          ] [23 ] [INFO ]  				Loss S: 0.015295742348612503, Loss subsampling S: 0.012982956209367251, Loss T: 0.03368, Dist chisq: 16.79473245694461, Dist kl: 3.9284424229912354, Dist tv: 0.9078824831920206
+2022-01-27 00:18:14,881 [loggers.py          ] [29 ] [INFO ]  			Iteration number 6 of MW algorithm with rep: 8, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:18:14,969 [loggers.py          ] [23 ] [INFO ]  				Fit model on subsample
+2022-01-27 00:18:17,496 [loggers.py          ] [23 ] [INFO ]  				Calculate loss on S
+2022-01-27 00:18:17,658 [loggers.py          ] [23 ] [INFO ]  				SQ - query
+2022-01-27 00:18:18,841 [loggers.py          ] [23 ] [INFO ]  				Loss S: 0.015961574120448973, Loss subsampling S: 0.014232443724253724, Loss T: 0.02934, Dist chisq: 16.78781542961677, Dist kl: 3.927620367606258, Dist tv: 0.9077990708443072
+2022-01-27 00:18:18,859 [loggers.py          ] [23 ] [INFO ]  	Finish repetition 8 of MW algorithm after 6 iterations in status succeeded: Loss S: 0.015961574120448973, Loss subsampling S: 0.014232443724253724, Loss T: 0.02934, chisq_dist: 16.78781542961677, kl_dist: 3.927620367606258, tv_dist: 0.9077990708443072 with MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221

@@ -186,8 +186,11 @@ python C:\Users\user\.conda\envs\ds\Scripts\create_plots_linear.py .....
 
 ### Advanced parameters
 A full list of parameters can be found in the following files (The parameters in the command line override the values in these files):
+
 [params-linear.py](SubsampleTestReweighLinear/params.py)  
+
 [params-cycle-non-private.py](SubsampleTestReweighCycle/params_non_private.py) 
+
 [params-cycle-private.py](SubsampleTestReweighCycle/params_private.py) 
 
 ## Contributors

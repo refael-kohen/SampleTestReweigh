@@ -1,0 +1,10 @@
+2022-01-27 00:17:47,882 [loggers.py          ] [29 ] [INFO ]  	Start repetition 6 with MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:17:47,884 [loggers.py          ] [23 ] [INFO ]  		Prepare the target distribution
+2022-01-27 00:17:49,998 [loggers.py          ] [23 ] [INFO ]  		Sample from the source distribution 100000 examples
+2022-01-27 00:17:50,518 [loggers.py          ] [23 ] [INFO ]  		Start MW algorithm
+2022-01-27 00:17:50,712 [loggers.py          ] [29 ] [INFO ]  			Iteration number 1 of MW algorithm with rep: 6, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:17:50,853 [loggers.py          ] [23 ] [INFO ]  				Fit model on subsample
+2022-01-27 00:17:55,842 [loggers.py          ] [23 ] [INFO ]  				Calculate loss on S
+2022-01-27 00:17:56,201 [loggers.py          ] [23 ] [INFO ]  				SQ - query
+2022-01-27 00:17:57,733 [loggers.py          ] [23 ] [INFO ]  				Loss S: 0.013640000000000001, Loss subsampling S: 0.01122586439155815, Loss T: 0.02898, Dist chisq: 16.76442270723064, Dist kl: 3.9283978697005892, Dist tv: 0.9081830426200427
+2022-01-27 00:17:57,759 [loggers.py          ] [23 ] [INFO ]  	Finish repetition 6 of MW algorithm after 1 iterations in status succeeded: Loss S: 0.013640000000000001, Loss subsampling S: 0.01122586439155815, Loss T: 0.02898, chisq_dist: 16.76442270723064, kl_dist: 3.9283978697005892, tv_dist: 0.9081830426200427 with MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
