@@ -1,7 +1,7 @@
 .idea/
 scikit-learn-main/
 scikit-learn-main.zip
-str-output-dir/
+#str-output-dir/
 
 # Cython compiled files
 cythonCode/
