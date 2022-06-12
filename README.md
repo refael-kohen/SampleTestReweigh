@@ -1,6 +1,3 @@
-pip install --verbose --no-build-isolation --editable . && python tests\test_private_svm.py
-# Standard Readme
-
 ## Table of Contents
 
 - [Source code](#source-code)
@@ -128,7 +125,7 @@ In a similar way, we run the following similar command for the --sample-size-s o
 
 The running time of one repetiton is ~3 hours.
 
-Plotting:
+Plot graphs:
 ```sh
 $ python create_plots_cycle.py --input-dir str-output-dir/cycle-non-private --sample-size-s-list 75000 100000 125000 150000 175000 200000 --num-rep 50
 ```
@@ -143,7 +140,7 @@ Repeat the above commands 50 times (for 50 repetitions).
 
 The private mode takes ~55G of memory and the running time of one repetiton is ~30 hours.
 
-Plotting
+Plot graphs:
 ```sh
 $ python create_plots_cycle.py --input-dir cycle-private --sample-size-s-list  --num-rep 50 --private
 ```
@@ -188,7 +185,10 @@ python C:\Users\user\.conda\envs\ds\Scripts\create_plots_linear.py .....
 ```
 
 ### Advanced parameters
-A full list of parameters can be found in [params.py](SubsampleTestReweigh/params.py) file. The parameters in the command line override the values in this file. 
+A full list of parameters can be found in the following files (The parameters in the command line override the values in these files):
+[params-linear.py](SubsampleTestReweighLinear/params.py)  
+[params-cycle-non-private.py](SubsampleTestReweighCycle/params_non_private.py) 
+[params-cycle-private.py](SubsampleTestReweighCycle/params_private.py) 
 
 ## Contributors
 
@@ -197,3 +197,4 @@ The code of the simulation has been written by Refael Kohen: refael.kohen@gmail.
 ## License
 
 [BSD 3-Clause](LICENSE)
+
