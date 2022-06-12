@@ -1,0 +1,3 @@
+include SubsampleTestReweigh/private_svm_sgd/_weight_vector_custom.pxd
+include SubsampleTestReweigh/private_svm_sgd/_weight_vector_custom.pyx
+include SubsampleTestReweigh/private_svm_sgd/_sgd_fast_custom.pyx
