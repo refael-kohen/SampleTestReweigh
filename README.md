@@ -113,13 +113,13 @@ $ create_plots_linear.py --help
 ```
 The output is: [create-plots-help](str-output-dir/create_plots_cmd.txt)
 
-### Run the "Cycle" simulation
+### Run the "Ball" simulation
 
-In the similar way you can run the "cycle" simulation in private and non-private modes:
+In the similar way you can run the "ball" simulation in private and non-private modes:
 
 Non-private mode:
 ```sh
-$ python run_str_simulation_cycle_non_private.py --output-dir str-output-dir --multiproc 50 --num-rep 50 --sample-size-s 50000 --sample-size-t 50000 --title cycle-non-private --std-k-t 0.4
+$ python run_str_simulation_cycle_non_private.py --output-dir str-output-dir --multiproc 50 --num-rep 50 --sample-size-s 50000 --sample-size-t 50000 --title ball-non-private --std-k-t 0.4
 ```
 In a similar way, we run the following similar command for the --sample-size-s of 75K 100K 125K 150K 175K 200K.
 
@@ -127,14 +127,14 @@ The running time of one repetiton is ~3 hours.
 
 Plot graphs:
 ```sh
-$ python create_plots_cycle.py --input-dir str-output-dir/cycle-non-private --sample-size-s-list 75000 100000 125000 150000 175000 200000 --num-rep 50
+$ python create_plots_cycle.py --input-dir str-output-dir/ball-non-private --sample-size-s-list 75000 100000 125000 150000 175000 200000 --num-rep 50
 ```
 
 Private mode:
 ```sh
-$ python run_str_simulation_cycle_private.py --output-dir str-output-dir --multiproc 0 --num-rep 1 --title cycle-private --std-k-t 0.07 --mw-max-iter 250 --sgd-max-iter 50000000 --alpha 0.08
-$ python run_str_simulation_cycle_private.py --output-dir str-output-dir --multiproc 0 --num-rep 1 --title cycle-private --std-k-t 0.07 --mw-max-iter 200 --sgd-max-iter 75000000 --alpha 0.08
-$ python run_str_simulation_cycle_private.py --output-dir str-output-dir --multiproc 0 --num-rep 1 --title cycle-private --std-k-t 0.07 --mw-max-iter 150 --sgd-max-iter 100000000 --alpha 0.08
+$ python run_str_simulation_cycle_private.py --output-dir str-output-dir --multiproc 0 --num-rep 1 --title ball-private --std-k-t 0.07 --mw-max-iter 250 --sgd-max-iter 50000000 --alpha 0.08
+$ python run_str_simulation_cycle_private.py --output-dir str-output-dir --multiproc 0 --num-rep 1 --title ball-private --std-k-t 0.07 --mw-max-iter 200 --sgd-max-iter 75000000 --alpha 0.08
+$ python run_str_simulation_cycle_private.py --output-dir str-output-dir --multiproc 0 --num-rep 1 --title ball-private --std-k-t 0.07 --mw-max-iter 150 --sgd-max-iter 100000000 --alpha 0.08
 ```
 Repeat the above commands 50 times (for 50 repetitions).
 
@@ -142,7 +142,7 @@ The private mode takes ~55G of memory and the running time of one repetiton is ~
 
 Plot graphs:
 ```sh
-$ python create_plots_cycle.py --input-dir cycle-private --sample-size-s-list  --num-rep 50 --private
+$ python create_plots_cycle.py --input-dir ball-private --sample-size-s-list  --num-rep 50 --private
 ```
 
 ### Toy example of run:
@@ -189,9 +189,9 @@ A full list of parameters can be found in the following files (The parameters in
 
 [params-linear.py](SubsampleTestReweighLinear/params.py)  
 
-[params-cycle-non-private.py](SubsampleTestReweighCycle/params_non_private.py) 
+[params-ball-non-private.py](SubsampleTestReweighBall/params_non_private.py) 
 
-[params-cycle-private.py](SubsampleTestReweighCycle/params_private.py) 
+[params-ball-private.py](SubsampleTestReweighBall/params_private.py) 
 
 ## Contributors
 
@@ -200,4 +200,3 @@ The code of the simulation has been written by Refael Kohen: refael.kohen@gmail.
 ## License
 
 [BSD 3-Clause](LICENSE)
-

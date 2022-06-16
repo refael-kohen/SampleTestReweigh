@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from SubsampleTestReweighCycle.sgd_classifier_custom import SGDClassifierCustom
+from SubsampleTestReweighBall.sgd_classifier_custom import SGDClassifierCustom
 
 # Run example:
 if __name__ == '__main__':

@@ -11,12 +11,12 @@ import numpy as np
 # noinspection PyUnresolvedReferences
 from scipy.stats import chi2
 
-from SubsampleTestReweighCycle.commands_args import parse_args
+from SubsampleTestReweighBall.commands_args import parse_args
 
 if __name__ == "__main__":
-    from SubsampleTestReweighCycle.params_non_private import SampleVC, PrecVC, ModelVC, PrivateVC, MWalgVC, SampCompVC, RunVC, PathVC
-from SubsampleTestReweighCycle.prepare_run import PrepareRun
-from SubsampleTestReweighCycle.experiments import run_experiments
+    from SubsampleTestReweighBall.params_non_private import SampleVC, PrecVC, ModelVC, PrivateVC, MWalgVC, SampCompVC, RunVC, PathVC
+from SubsampleTestReweighBall.prepare_run import PrepareRun
+from SubsampleTestReweighBall.experiments import run_experiments
 
 
 class GlobalVariables:

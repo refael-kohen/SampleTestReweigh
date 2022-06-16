@@ -5,7 +5,7 @@ import os
 import textwrap
 from argparse import RawTextHelpFormatter, ArgumentDefaultsHelpFormatter
 
-from SubsampleTestReweighCycle.plot import AggregateOutputFiles, Plot
+from SubsampleTestReweighBall.plot import AggregateOutputFiles, Plot
 
 
 class myArgparserFormater(RawTextHelpFormatter, ArgumentDefaultsHelpFormatter):
