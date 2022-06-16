@@ -121,13 +121,13 @@ Non-private mode:
 ```sh
 $ python run_str_simulation_cycle_non_private.py --output-dir str-output-dir --multiproc 50 --num-rep 50 --sample-size-s 50000 --sample-size-t 50000 --title ball-non-private --std-k-t 0.4
 ```
-In a similar way, we run the following similar command for the --sample-size-s of 75K 100K 125K 150K 175K 200K.
+In a similar way, we run the following similar command for the --sample-size-s of 10K 25K 50K 75K 100K 125K.
 
 The running time of one repetiton is ~3 hours.
 
 Plot graphs:
 ```sh
-$ python create_plots_cycle.py --input-dir str-output-dir/ball-non-private --sample-size-s-list 75000 100000 125000 150000 175000 200000 --num-rep 50
+$ python create_plots_cycle.py --input-dir str-output-dir/ball-non-private --sample-size-s-list 10000 25000 50000 75000 100000 125000 --num-rep 50
 ```
 
 Private mode:
@@ -200,3 +200,4 @@ The code of the simulation has been written by Refael Kohen: refael.kohen@gmail.
 ## License
 
 [BSD 3-Clause](LICENSE)
+
