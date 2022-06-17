@@ -123,7 +123,7 @@ $ python run_str_simulation_cycle_non_private.py --output-dir str-output-dir --m
 ```
 In a similar way, we run the following similar command for the --sample-size-s of 10K 25K 50K 75K 100K 125K.
 
-The running time of one repetiton is ~3 hours.
+The running time of one repetiton is ~3 hours and takes ~100M of RAM memory.
 
 Plot graphs:
 ```sh
