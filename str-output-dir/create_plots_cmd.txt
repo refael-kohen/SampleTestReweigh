@@ -1,0 +1,22 @@
+$ python create_plots.py --help
+
+usage: create_plots.py [-h] --input-dir INPUT_DIR --sample-size-s-list SAMPLE_SIZE_S_LIST [SAMPLE_SIZE_S_LIST ...] [--num-rep NUM_REP] [--run-parallel]
+                       [--skip-iterations SKIP_ITERATIONS]
+
+The script aggregates and plots outputs of several runs that made by run_str_simulation.py script
+on different sample sizes from the source distribution.
+
+The plots are saved in the plots folder under the output folder.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input-dir INPUT_DIR
+                        Full path to the output folder which created by
+                                                   the --title parameter of the run_str_simulation.py script.
+                         (default: None)
+  --sample-size-s-list SAMPLE_SIZE_S_LIST [SAMPLE_SIZE_S_LIST ...]
+                        list of sample sizes from S of the different runs. (default: None)
+  --num-rep NUM_REP     Number of the repetition of the same run (default: 1)
+  --run-parallel        If the runs made in multiprocessing mode by the run_str_simulation.py scrtipy (default: False)
+  --skip-iterations SKIP_ITERATIONS
+                        How many iterations to plot in the figure of X vs iterations. (default: 50)

@@ -1,0 +1,2 @@
+2022-01-27 00:17:47,870 [loggers.py          ] [30 ] [INFO ]  	Start repetition 2 with MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221
+2022-01-27 00:17:50,231 [loggers.py          ] [30 ] [INFO ]  			Iteration number 1 of MW algorithm with rep: 2, MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 100000, subsample_size: 51221

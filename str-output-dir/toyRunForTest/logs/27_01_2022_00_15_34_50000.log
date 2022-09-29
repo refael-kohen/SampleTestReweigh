@@ -1,0 +1,3 @@
+2022-01-27 00:15:34,611 [loggers.py          ] [23 ] [INFO ]  The upper bound on sample S is: 6642146
+2022-01-27 00:15:34,611 [loggers.py          ] [29 ] [INFO ]  Start simulation with MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 50000, subsample_size: 51221
+2022-01-27 00:17:08,005 [loggers.py          ] [23 ] [INFO ]  	Finish 10 succeeded repetitions (out of 10) with MW_max_iter: 10000, sample_size_t: 50000, sample_size_s: 50000, subsample_size: 51221

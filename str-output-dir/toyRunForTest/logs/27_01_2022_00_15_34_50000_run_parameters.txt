@@ -1,0 +1,81 @@
+-------------------------------------
+Run parameters: 27_01_2022_00_15_34:
+-------------------------------------
+
+SampleVC:
+---------
+chi_s: 165.3817168792021
+dim: 500
+k: 10
+k_coord: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+mean_k_s: 0
+mean_k_t: 0
+mean_s: 0
+mean_t: 0
+std_k_s: 1
+std_k_t: 0.04
+std_s: 1
+std_t: 1
+
+PrecVC:
+---------
+alpha: 0.01
+alpha_h: 0
+beta: 0.05
+eta: 0.01
+tau: 0.01
+
+ModelVC:
+---------
+model_name: SVM
+penalty: l2
+real_hypo_noise: False
+regularization_c: 1000000000000000000000000000000
+
+PrivateVC:
+---------
+epsilon: 0.5
+kappa: 7e-06
+private: False
+rr_laplace_b: 0.08
+ss_noise_debug_mode: True
+ss_noise_max_iter: 4487877.873561178
+ss_noise_num_threads_rand: 0
+ss_noise_sigma: 4.48
+
+MWalgVC:
+---------
+early_stopping: False
+mw_max_iter: 10000
+mw_print_freq: 1
+n_iter_no_change: 200
+p_dim: 500
+simulation_mode: True
+stop_condition: 0.03
+tol_early_stopping: 0.01
+zero_loss_times_max: 5
+
+SampCompVC:
+---------
+sample_size_s: 50000
+sample_size_t: 50000
+subsample_size: 51221
+
+RunVC:
+---------
+log_level: 10
+log_level_stdout: 10
+multiproc_num: 10
+num_rep: 10
+sklearn_model: True
+
+PathVC:
+---------
+date: 27_01_2022_00_15_34
+log_path: str-output-dir\toyRunForTest\logs
+output_path: str-output-dir\toyRunForTest\output
+output_root: str-output-dir
+plot_path: str-output-dir\toyRunForTest\plots
+title: toyRunForTest
+title_path: str-output-dir\toyRunForTest
+

@@ -15,12 +15,14 @@ The source code and full documentation:
 ## Background
 
 This project is a simulation of Subsample-Test-Reweigh algorithm. The simulation and the results are described in the paper: "Transfer Learning In Differential Privacy's Hybrid-Model", accepted to International Conference of Machine Learning (ICML) - 2022:
+
 The paper:
 https://icml.cc/virtual/2022/spotlight/16176.
+
 Poster: 
 https://icml.cc/virtual/2022/poster/16175
 
-For now, it is possible to run it only on the example of the distributions described in the paper, but in the near future, we intend to extend it to more general distributions and for the private version of the algorithm. 
+For now, it can only be run on a sample of the distributions described in the paper, but in the near future, we intend to extend it to more general distributions.
 
 ## Install
 

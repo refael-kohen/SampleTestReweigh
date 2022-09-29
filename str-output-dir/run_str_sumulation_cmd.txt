@@ -1,0 +1,42 @@
+$ python run_str_simulation.py --help
+
+usage: run_str_simulation.py [-h] [--output-dir OUTPUT_DIR] [--title TITLE] [--num-rep NUM_REP] [--multiproc-num MULTIPROC_NUM] [--sample-size-s SAMPLE_SIZE_S]
+                             [--sample-size-t SAMPLE_SIZE_T] [--std-k-t STD_K_T] [--alpha ALPHA] [--penalty {l2,l1}]
+
+Welcome to the simulation of SubsampleTestReweigh (STR) algorithm - Transfer learning with only SQ queries to target distribution.
+
+The full list of parameters is located in the params.py script in the package SubsampleTestReweigh.
+
+The basic command line is: python run_str_simulation.py
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+Run parameters:
+  --output-dir OUTPUT_DIR
+                        Full path to an existing output directory (default: str-output-dir)
+  --title TITLE
+                        Title of the run - the name of the sub-folder inside the folder.
+                        Runs with different sample sizes can be the same title.
+                         (default: None)
+  --num-rep NUM_REP     Number of the repetition of the same analysis (each run with different random seed) (default: 50)
+  --multiproc-num MULTIPROC_NUM
+
+                        Run with n processors. Set 0 for no multiprocessing run.
+                        (in multiprocessing the screen log is mixed, you can see separeate
+                        log of each process in the logs folder - under the '--output-dir folder')
+                         (default: 0)
+
+Sample complexity parameters:
+  --sample-size-s SAMPLE_SIZE_S
+                        Sample size from the source distribution (default: 90000)
+  --sample-size-t SAMPLE_SIZE_T
+                        Sample size from the target distribution (default: 50000)
+
+Algorithm parameters:
+  --std-k-t STD_K_T
+                        Standard deviation of the target distribution on the k different coordinates
+                        (for fast tests select 0.5 - then the run will finish after one iteration)
+                         (default: 0.01)
+  --alpha ALPHA         Maximum error of the subsample learning algorithm (SVM) on the source distribution (default: 0.01)
+  --penalty {l2,l1}     Penalty of the subsample learning algorithm(SVM) (default: l2)
