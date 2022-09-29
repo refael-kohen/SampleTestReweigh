@@ -205,4 +205,3 @@ The code of the simulation has been written by Refael Kohen: refael.kohen@gmail.
 
 [BSD 3-Clause](LICENSE)
 
-"# SampleTestReweigh" 
